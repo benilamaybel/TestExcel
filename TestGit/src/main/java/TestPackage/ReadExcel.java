@@ -19,6 +19,7 @@ public class ReadExcel {
 		sheet = book.getSheet("Sheet1");
 		System.out.println("Getting Row :");
 		Row r = sheet.getRow(a);
+		System.out.println("Getting Cell :");
 		Cell c = r.getCell(b);
 		return c.getStringCellValue();
 	}
