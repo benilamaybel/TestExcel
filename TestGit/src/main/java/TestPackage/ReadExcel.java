@@ -25,6 +25,7 @@ public class ReadExcel {
 	}
 	
 	public static int getIntegerData(int a, int b) throws IOException   {
+		System.out.println("Reading the file :");
 		f = new FileInputStream ("D:\\benila\\Test.xlsx");
 		book = new XSSFWorkbook(f);
 		sheet = book.getSheet("Sheet1");
