@@ -17,7 +17,7 @@ public class ReadExcel {
 		f = new FileInputStream ("D:\\benila\\Test.xlsx");
 		book = new XSSFWorkbook(f);
 		sheet = book.getSheet("Sheet1");
-		System.out.println("Getting Row");
+		System.out.println("Getting Row :");
 		Row r = sheet.getRow(a);
 		Cell c = r.getCell(b);
 		return c.getStringCellValue();
