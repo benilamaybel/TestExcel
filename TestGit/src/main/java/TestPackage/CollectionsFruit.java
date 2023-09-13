@@ -29,6 +29,7 @@ public class CollectionsFruit {
 		}
 		fruits.remove(2);
 		System.out.println("Collection after removing third element : "+fruits);
+		/*
 		System.out.println("Search for an element in Arraylist : ");
 		Scanner s =  new Scanner (System.in);
 		System.out.println("Enter the element to be searched in Arraylist : ");
@@ -37,7 +38,8 @@ public class CollectionsFruit {
 			System.out.println("The fruit is present in ArrayList.");
 		}else {
 			System.out.println("The fruit is not present in ArrayList.");
-		}
+		}*/
+		System.out.println(fruits.contains("Mango"));
 	}
 
 }
